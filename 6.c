@@ -126,6 +126,7 @@ int binary_search(int arr[], int left, int right, int target) {
     }
     int mid = (left + right) / 2;
     if (arr[mid] == target) 
+    //arr[mid]-->*(arr + mid)
     {
         return mid; //找到了
     }
